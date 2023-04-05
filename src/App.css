@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+
+.technology-bg-container {
+  background-color: #f4faff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  min-height: 100vh;
+  /* padding: 35px; */
+}
+.technology-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.title {
+  color: #171f46;
+  font-size: 42px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .technology-heading-container {
+    width: 100%;
+  }
+  .title {
+    font-size: 37px;
+  }
+  .description {
+    font-size: 17px;
+  }
+}

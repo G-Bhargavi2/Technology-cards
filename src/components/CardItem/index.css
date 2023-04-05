@@ -1,0 +1,66 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  width: 310px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 14px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.technology {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.tech-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.tech-image {
+  width: 80px;
+  height: 80px;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards-container {
+    width: 90%;
+  }
+  .card {
+    margin-right: 0px;
+  }
+}
